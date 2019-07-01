@@ -53,8 +53,8 @@ public class PlayerMovement : MonoBehaviour
 			}
 		}
 	}
-	public bool grounded;
-	public bool wallSliding;
+	public bool grounded = false;
+	public bool wallSliding = false;
 	void FlipSprite()
 	{
 		if (wallSliding)
